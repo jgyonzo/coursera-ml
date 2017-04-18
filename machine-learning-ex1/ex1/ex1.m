@@ -90,9 +90,9 @@ hold off % don't overlay any more plots on this figure
 
 % Predict values for population sizes of 35,000 and 70,000
 predict1 = [1, 3.5] * theta;
-fprintf('For population = 35,000, we predict a profit of %f ...\n', predict1*10000);
+fprintf('For population = 35,000, we predict a profit of %f \n', predict1*10000);
 predict2 = [1, 7] * theta;
-fprintf('For population = 70,000, we predict a profit of %f ...\n', predict2*10000);
+fprintf('For population = 70,000, we predict a profit of %f \n', predict2*10000);
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
